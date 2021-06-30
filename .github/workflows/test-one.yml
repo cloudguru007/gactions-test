@@ -10,7 +10,7 @@ jobs:
         run: echo "Gopal's First test"
       - name: multiline script
         run: |
-          node -V
+          node -v
           mpm -v
           lscpu
           free -g
