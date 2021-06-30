@@ -11,6 +11,6 @@ jobs:
       - name: multiline script
         run: |
           node -V
-          mpm -V
+          mpm -v
           lscpu
           free -g
