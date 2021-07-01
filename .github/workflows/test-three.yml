@@ -26,6 +26,6 @@ jobs:
        run: Get-Location
      - name: Directroy Bash
        run: pwd
-       Shell: bash
+       shell: bash
        
     
