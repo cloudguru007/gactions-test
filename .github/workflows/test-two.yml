@@ -3,7 +3,7 @@ name: Shell Commands
 on: [push]
 
 jobs:
-  run-shell-command
+  run-shell-command:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
@@ -13,7 +13,7 @@ jobs:
           node -v
           lscpu
           free -g
-      - name: python command:
+      - name: python command
         run: |
           import platform
           print(platform.processor())
